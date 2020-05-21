@@ -1,0 +1,20 @@
+{
+  "name": "eleventy-amp-sass",
+  "version": "1.0.0",
+  "description": "A quick sample of setting up eleventy for amp with sass using Bulma",
+  "main": "index.js",
+  "repository": "https://github.com/dougchestnut/eleventy-amp-sass.git",
+  "author": "Doug Chestnut <dougchestnut@gmail.com>",
+  "license": "MIT",
+  "dependencies": {},
+  "devDependencies": {
+    "@11ty/eleventy": "^0.11.0",
+    "bulma": "^0.8.2",
+    "clean-css": "^4.2.3",
+    "node-sass": "^4.14.1"
+  },
+  "scripts": {
+    "start": "npx @11ty/eleventy --input=src --serve",
+    "build-prod": "npx @11ty/eleventy --input=src --output=dist"
+  }
+}
